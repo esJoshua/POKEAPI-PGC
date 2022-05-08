@@ -1,14 +1,20 @@
 <template>
-  <div>
-    <router-view />
-  </div>
+  <TheNavBar />
+
+  <router-view />
 </template>
 
 <script>
+import TheNavBar from "@/components/TheNavBar.vue";
+
 export default {
   name: "App",
+  components: {
+    TheNavBar,
+  },
 };
 </script>
+
 <style>
 * {
   padding: 0;
