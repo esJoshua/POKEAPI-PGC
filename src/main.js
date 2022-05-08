@@ -11,6 +11,13 @@ import "../node_modules/primeflex/primeflex.css";
 
 const app = createApp(App);
 app.use(store).use(router).use(PrimeVue);
+/* eslint-disable */
+app.component("Fieldset", FieldSet);
+app.component("Menubar", Menubar);
+app.component("Button", Button);
+app.component("DataTable", DataTable);
+app.component("Column", Column);
 
+app.mount("#app");
 
 app.mount("#app");
