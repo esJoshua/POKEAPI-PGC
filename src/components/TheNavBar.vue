@@ -53,6 +53,13 @@ export default {
     > .p-menuitem-link:not(.p-disabled):hover) {
   background: none;
 }
+:deep(.p-menubar
+    .p-menubar-root-list
+    > .p-menuitem
+    > .p-menuitem-link:not(.p-disabled):hover
+    .p-menuitem-text) {
+  color: var(--surface-400);
+}
 :deep(.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:focus) {
   box-shadow: none;
   border: none;

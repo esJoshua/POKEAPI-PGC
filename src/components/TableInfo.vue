@@ -90,6 +90,7 @@ export default {
 }
 :deep(.p-paginator-current) {
   font-size: x-small;
+  margin-left: 20%;
 }
 :deep(.p-datatable .p-paginator) {
   border-color: black;
